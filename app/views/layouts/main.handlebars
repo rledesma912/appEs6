@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>{{ title }}</title>
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <!-- {{#if ENV_DEVELOPMENT}}
+  <script src="http://localhost:35729/livereload.js"></script>
+  {{/if}} -->
+
+  <!-- antes para que los scripts de las paginas no pierdan la referencia -->
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/popper.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+  <div class="container-fluid">
+
+    {{> menu }}
+
+    <div class="row">
+      <div class="col-sm-2">&nbsp;</div>
+      <div class="col-sm-auto">
+
+        {{>titles}}
+
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-2">
+
+      {{> sidebar }}
+
+      </div>
+      <div class="col-sm-auto">
+
+        {{{body}}}
+
+      </div>
+    </div>
+
+  </div> <!-- main container -->
+
+</body>
+</html>

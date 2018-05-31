@@ -1,0 +1,32 @@
+
+
+<div class="jumbotron">
+  <h1 class="display-4">ES6 for Humans</h1>
+  <h2>{{ subtitle1 }}</h2>
+  <p class="lead">
+    The Latest Standard of JavaScript: ES2015 and Beyond 1st ed. Edition
+  </p>
+  <hr class="my-4">
+  <p>
+    <a href="https://www.amazon.com/ES6-Humans-Latest-Standard-JavaScript/dp/1484226224">
+      ES6 for Humans 1st ed. Edition - buy on amazon
+    </a>
+
+  </p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="/variables" role="button">Lets gets start - Chapter 2</a>
+  </p>
+</div>
+
+<ul class="list-group">
+  <li class="list-group-item active">Links </li>
+
+  {{#each chapters}}
+    <li class="list-group-item">  {{name}} {{description}} </li>
+
+    {{#each sections}}
+      <li class="list-group-item"> section: {{id}} {{name}} </li>
+    {{/each}}
+
+  {{/each}}
+</ul>
