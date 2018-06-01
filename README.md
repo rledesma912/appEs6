@@ -13,16 +13,13 @@ standardized specification of a scripting language
 
 ### Design
 
-Sitio desarrollado con Express mvc, handlebars, bootstrap 4, jquery,  sqlite 3, grunt,
- mocha, chai, supertest.-
+MVC site developed with Express mvc, handlebars, bootstrap 4, jquery,  sqlite 3, grunt,
+ 
+Luego... más tarde... Mocha, Chai y supertest para tests.-
 
- ## Hot to run
+ ## How to run
 
-mkdir expressApps
-
-cd expressApps
-
-git clone
+git clone https://github.com/rledesma912/appEs6.git
 
 npm install
 
