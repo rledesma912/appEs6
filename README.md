@@ -21,6 +21,8 @@ Luego... más tarde... Mocha, Chai y supertest para tests.-
 
 git clone https://github.com/rledesma912/appEs6.git
 
+cd appEs6
+
 npm install
 
 npm start
